@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cloud-my-sound/static/css/main.932435b8.chunk.css",
+    "main.js": "/cloud-my-sound/static/js/main.d875f6cd.chunk.js",
+    "main.js.map": "/cloud-my-sound/static/js/main.d875f6cd.chunk.js.map",
+    "runtime-main.js": "/cloud-my-sound/static/js/runtime-main.a7637d9e.js",
+    "runtime-main.js.map": "/cloud-my-sound/static/js/runtime-main.a7637d9e.js.map",
+    "static/js/2.d5d7cfdd.chunk.js": "/cloud-my-sound/static/js/2.d5d7cfdd.chunk.js",
+    "static/js/2.d5d7cfdd.chunk.js.map": "/cloud-my-sound/static/js/2.d5d7cfdd.chunk.js.map",
+    "static/js/3.6c2a5137.chunk.js": "/cloud-my-sound/static/js/3.6c2a5137.chunk.js",
+    "static/js/3.6c2a5137.chunk.js.map": "/cloud-my-sound/static/js/3.6c2a5137.chunk.js.map",
+    "index.html": "/cloud-my-sound/index.html",
+    "static/css/main.932435b8.chunk.css.map": "/cloud-my-sound/static/css/main.932435b8.chunk.css.map",
+    "static/js/2.d5d7cfdd.chunk.js.LICENSE.txt": "/cloud-my-sound/static/js/2.d5d7cfdd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/cloud-my-sound/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/list.svg": "/cloud-my-sound/static/media/list.008a5145.svg",
+    "static/media/next.svg": "/cloud-my-sound/static/media/next.2aa04594.svg",
+    "static/media/no-img.jpg": "/cloud-my-sound/static/media/no-img.2b01285d.jpg",
+    "static/media/tile.svg": "/cloud-my-sound/static/media/tile.8e5c77dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7637d9e.js",
+    "static/js/2.d5d7cfdd.chunk.js",
+    "static/css/main.932435b8.chunk.css",
+    "static/js/main.d875f6cd.chunk.js"
+  ]
+}
