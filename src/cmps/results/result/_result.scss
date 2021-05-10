@@ -1,0 +1,25 @@
+.result {
+  max-width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  padding: 5px 5px 5px 5px;
+  background-color: #f38c17a6;
+  transition: transform 0.4s ease, background-color 0.2s ease-in-out,
+    visibility 0s, opacity 0.5s linear;
+  cursor: pointer;
+  border-radius: 3px;
+  img {
+    max-width: 87px;
+  }
+  &:hover {
+    transform: rotate(2deg);
+    background-color: #fda504c7;
+  }
+  &.hidden {
+    display: none;
+  }
+  &.no-pic {
+    max-width: fit-content;
+  }
+}

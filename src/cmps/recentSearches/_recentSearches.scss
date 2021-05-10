@@ -1,0 +1,13 @@
+.recent-search {
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  &:hover {
+    background-color: red;
+  }
+}
+@media (max-width: 400px) {
+  .recent-searches {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}

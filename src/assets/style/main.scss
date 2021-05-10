@@ -1,0 +1,29 @@
+@import "./setup/typography";
+@import "./setup/animations";
+@import "./setup/functions";
+@import "./setup/helpers";
+@import "./setup/vars";
+@import "../../cmps/results/results";
+@import "../../cmps/results/result/result";
+@import "../../cmps/song/song";
+@import "../../cmps/recentSearches/recentSearches";
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: roboto-light, Courier, monospace;
+}

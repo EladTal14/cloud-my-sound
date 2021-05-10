@@ -2,13 +2,17 @@
   "name": "edea",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://EladTal14.github.io/cloud-my-sound",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "loadsh": "0.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.32.12",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
