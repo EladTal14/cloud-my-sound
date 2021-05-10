@@ -16,7 +16,7 @@ export function RecentSearches({ searchDeb, setSearchDeb, setSearch }) {
       <h3>Recent Searches</h3>
       {recentSearches === null && <span>You Haven't searched yet</span>}
       <div className="container flex column">
-        {recentSearches && recentSearches.map(search => <div onClick={() => instigateSearch(search)} href="#top" className="recent-search" key={Math.random()}><a href="#top">{search}</a></div>)}
+        {recentSearches && recentSearches.map(search => <a href="#top" className="recent-search" key={Math.random()}><div onClick={() => instigateSearch(search)} href="#top"  >{search}</div></a>)}
       </div>
     </div>
   )

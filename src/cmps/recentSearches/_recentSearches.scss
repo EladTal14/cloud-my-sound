@@ -6,10 +6,9 @@ h3 {
   border: 1px black solid;
   margin-bottom: 20px;
   .recent-search {
-    a {
-      text-decoration: none;
-      color: white;
-    }
+    text-decoration: none;
+    color: white;
+
     font-size: 20px;
     &:not(:last-child) {
       border-bottom: 1px black solid;
@@ -18,7 +17,7 @@ h3 {
     transition: background-color 0.5s ease;
     padding: 4px;
     &:hover {
-      background-color: red;
+      background-color: rgba(243, 140, 23, 0.6509803921568628);
     }
   }
 }
