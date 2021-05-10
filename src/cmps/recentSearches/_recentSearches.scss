@@ -1,8 +1,25 @@
-.recent-search {
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-  &:hover {
-    background-color: red;
+h3 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.container {
+  border: 1px black solid;
+  margin-bottom: 20px;
+  .recent-search {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    font-size: 20px;
+    &:not(:last-child) {
+      border-bottom: 1px black solid;
+    }
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    padding: 4px;
+    &:hover {
+      background-color: red;
+    }
   }
 }
 @media (max-width: 400px) {

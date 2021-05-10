@@ -1,9 +1,16 @@
-// .song {
-//   align-self: center;
-// }
+.song {
+  iframe {
+    height: 517px;
+    width: 400px;
+  }
+}
+
 @media (max-width: 400px) {
   .song {
     margin: 0 auto;
     margin-top: 20px;
+    iframe {
+      width: 300px;
+    }
   }
 }
