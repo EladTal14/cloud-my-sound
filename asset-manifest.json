@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cloud-my-sound/static/css/main.14f10882.chunk.css",
-    "main.js": "/cloud-my-sound/static/js/main.e28c2869.chunk.js",
-    "main.js.map": "/cloud-my-sound/static/js/main.e28c2869.chunk.js.map",
+    "main.js": "/cloud-my-sound/static/js/main.d99dd56a.chunk.js",
+    "main.js.map": "/cloud-my-sound/static/js/main.d99dd56a.chunk.js.map",
     "runtime-main.js": "/cloud-my-sound/static/js/runtime-main.a7637d9e.js",
     "runtime-main.js.map": "/cloud-my-sound/static/js/runtime-main.a7637d9e.js.map",
     "static/js/2.d5d7cfdd.chunk.js": "/cloud-my-sound/static/js/2.d5d7cfdd.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.a7637d9e.js",
     "static/js/2.d5d7cfdd.chunk.js",
     "static/css/main.14f10882.chunk.css",
-    "static/js/main.e28c2869.chunk.js"
+    "static/js/main.d99dd56a.chunk.js"
   ]
 }
