@@ -10,7 +10,7 @@ export function Results({ setVideoUrl, searchDeb, setSearchDeb, SC, search, setS
   const [formationTile, setFormationTile] = useState(false)
   const [nextSongs, setNextSongs] = useState('')
   const debouncedSave = useDebounce((nextValue) => setSearchDeb(nextValue), 1000);
-
+  const [cdm, setCdm] = useState(1)
   const chooseFormation = (userChoice) => {
     saveToStorage('formation', userChoice)
     setFormationTile(userChoice)
@@ -21,6 +21,8 @@ export function Results({ setVideoUrl, searchDeb, setSearchDeb, SC, search, setS
   }, [])
 
   useEffect(() => {
+    setCdm(cdm + 1)
+    if (cdm === 1) return
     if (!searchDeb) return
     let lastSearches = loadFromStorage('recentSearches')
     if (lastSearches) {
@@ -37,7 +39,7 @@ export function Results({ setVideoUrl, searchDeb, setSearchDeb, SC, search, setS
     }).then(function (tracks) {
       setSongs(tracks.collection)
       setNextSongs(tracks.next_href)
-    });
+    }).catch(err => console.log(err));
   }, [SC, searchDeb])
 
   const handleChange = (event) => {
